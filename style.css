@@ -67,3 +67,30 @@ header > p {
     padding: 0.9rem 1.5rem;
     border-radius: 30px;
 }
+
+.computer,
+.clipboardimg {
+    width: 100%;
+    height: auto;
+}
+
+.computerSection {
+    text-align: center;
+}
+
+.computer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.computer__search {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2.5rem;
+}
+
+.clipboardSection {
+    text-align: center;
+}
