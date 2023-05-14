@@ -131,3 +131,43 @@ header > p {
     text-decoration: none;
     color: #fff;
 }
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-img {
+    width: 200px;
+}
+
+.footer-img > a > img {
+    width: 50px;
+}
+
+.policySection {
+    display: flex;
+    align-items: center;
+}
+
+.policy {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.policy-links {
+    justify-self: flex-start;
+}
+
+.policy-links > a {
+    text-decoration: none;
+    color: var(--clr-grayish-blue);
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
