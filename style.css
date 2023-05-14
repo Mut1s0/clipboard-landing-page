@@ -94,3 +94,17 @@ header > p {
 .clipboardSection {
     text-align: center;
 }
+
+.workflowSection {
+    text-align: center;
+}
+
+.tools {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.partners {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
