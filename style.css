@@ -108,3 +108,26 @@ header > p {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
+
+.download {
+    text-align: center;
+}
+
+.download-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.download-links > p {
+    cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.download-links > p > a {
+    text-decoration: none;
+    color: #fff;
+}
