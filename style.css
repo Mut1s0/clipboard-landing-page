@@ -78,7 +78,7 @@ header > a {
     border-radius: 30px;
 }
 
-.computer,
+.computer-img,
 .clipboardimg {
     width: 100%;
     height: auto;
@@ -86,23 +86,58 @@ header > a {
 
 .computerSection {
     text-align: center;
+    font-family: var(--ff);
+}
+
+.computerSection > h1 {
+    font-size: 2rem;
+}
+
+.computerSection > p {
+    color: var(--clr-grayish-blue);
+    width: 600px;
+    margin: 0 auto;
 }
 
 .computer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+    font-family: inherit;
 }
 
 .computer__search {
     text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    line-height: 2.5rem;
+    justify-content: space-evenly;
+    line-height: 3rem;
+    font-family: inherit;
+}
+
+
+.quickSearch p,
+.icloud p,
+.completeHistory p {
+    color: var(--clr-grayish-blue);
+    width: 350px;
+    line-height: 1.5rem;
 }
 
 .clipboardSection {
     text-align: center;
+    font-family: var(--ff);
+}
+
+.clipboardSection > h1 {
+    font-size: 2rem;
+}
+
+.clipboardSection > p {
+    color: var(--clr-grayish-blue);
+    font-size: 1em;
+    width: 600px;
+    margin: 0 auto;
 }
 
 .workflowSection {
