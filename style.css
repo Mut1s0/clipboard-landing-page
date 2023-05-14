@@ -142,11 +142,33 @@ header > a {
 
 .workflowSection {
     text-align: center;
+    font-family: var(--ff);
+}
+
+.workflowSection > h1 {
+    font-size: 2rem;
+}
+
+.workflowSection > p {
+    color: var(--clr-grayish-blue);
+}
+
+.blacklist > h2,
+.text > h2,
+.preview > h2 {
+    font-family: inherit;
+}
+
+.blacklist > p,
+.text > p,
+.preview > p {
+    color: var(--clr-grayish-blue);
 }
 
 .tools {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    font-family: inherit;
 }
 
 .partners {
