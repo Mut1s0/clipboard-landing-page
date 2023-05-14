@@ -143,13 +143,17 @@ header > a {
 .workflowSection {
     text-align: center;
     font-family: var(--ff);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
 }
 
-.workflowSection > h1 {
+.workflowContent > h1 {
     font-size: 2rem;
 }
 
-.workflowSection > p {
+.workflowContent > p {
     color: var(--clr-grayish-blue);
 }
 
@@ -178,6 +182,17 @@ header > a {
 
 .download {
     text-align: center;
+    font-family: var(--ff);
+}
+
+.download > h1 {
+    font-size: 2rem;
+}
+
+.download > p {
+    color: var(--clr-grayish-blue);
+    width: 550px;
+    margin: 0 auto;
 }
 
 .download-links {
