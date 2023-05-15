@@ -92,10 +92,6 @@ header {
     background: var(--clr-light-blur);
 }
 
-/* .computerSection {
-    border: 2px solid red;
-} */
-
 .computer-content {
     text-align: center;
     padding: 4rem 0;
@@ -254,6 +250,10 @@ header {
     align-items: center;
 }
 
+.partners > div > a > img {
+    width: 60%;
+}
+
 .clipboardSection {
     text-align: center;
     height: 400px;
@@ -263,18 +263,10 @@ header {
     justify-content: space-between;
 }
 
-/* .clipboard-header {
-    border: 2px solid orange;
-} */
-
 .clipboard-header > h1 {
     font-size: 2rem;
     font-weight: var(--fw-600);
 }
-
-/* .clipboard-p {
-    border: 2px solid aqua;
-} */
 
 .clipboard-p > p {
     color: var(--clr-grayish-blue);
@@ -332,9 +324,13 @@ footer > div {
     font-weight: var(--fw-400);
 }
 
-/* .socials {
-    border: 2px solid purple;
-} */
+.faqs > p > a:hover,
+.privacy > p > a:hover,
+.install > p > a:hover,
+.contact > p > a:hover,
+.press > p > a:hover {
+    color: var(--clr-strong-cyan);
+} 
 
 .socials-links {
     list-style: none;
