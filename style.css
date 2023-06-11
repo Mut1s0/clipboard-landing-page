@@ -47,3 +47,64 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+/* Header */
+.header {
+    background-image: url(./images/bg-header-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.logo {
+    padding: 6rem 0 3rem 0;
+}
+
+.header__title {
+    max-width: 360px;
+    margin: 0 auto 1.5rem auto;
+}
+
+.title {
+    color: var(--clr-header);
+    font-size: 2.1rem;
+}
+
+.header_h1 {
+    line-height: 1.5;
+}
+
+.header__p {
+    max-width: 310px;
+    margin: 0 auto 2rem auto;
+}
+
+.paragraph {
+    color: var(--clr-paragraph);
+    line-height: 1.5;
+}
+
+.ios {
+    background-color: var(--clr-ios-download);
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    max-width: 280px;
+    margin: 0 auto 1.5rem auto;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.ios__link,
+.mac__link {
+    color: #fff;
+}
+
+.mac {
+    background-color: var(--clr-mac-download);
+    padding: 1rem 0;
+    max-width: 280px;
+    margin: 0 auto;
+    border-radius: 2rem;
+    cursor: pointer;
+}
