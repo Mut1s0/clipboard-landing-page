@@ -67,7 +67,7 @@ img{
 }
 
 .title {
-    color: var(--clr-header);
+    color: black;
     font-size: 2.1rem;
 }
 
@@ -151,4 +151,82 @@ img{
 .history-paragraph {
     max-width: 300px;
     margin: .8rem auto 0 auto;
+}
+
+.access-section {
+    padding: 10rem 0 0 0;
+    text-align: center;
+}
+
+.access__header {
+    max-width: 300px;
+    margin: 0 auto 0 auto;
+    padding-bottom: 1.5rem;
+}
+
+.access__h1 {
+    font-size: 1.6rem;
+}
+
+.access__paragraph {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0 0 4rem 0;
+}
+
+
+.access__img {
+    max-width: 80%;
+}
+
+.supercharge {
+    padding: 5rem 0;
+}
+
+.supercharge__header {
+    max-width: 300px;
+    margin: 0 auto 1rem auto;
+}
+
+.supercharge__h1 {
+    font-size: 1.8rem;
+}
+
+.supercharge__paragrapgh {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.blacklist {
+    margin-top: 1rem;
+}
+
+.text,
+.preview {
+    margin: 5rem 0 0 0;
+}
+
+.blacklist__image,
+.text__image,
+.preview__image {
+    margin: 0 0 2rem 0;
+}
+
+.blacklist__header,
+.text__header,
+.preview__header {
+    margin: 0 0 1rem 0;
+}
+
+.blacklist__h2,
+.text__h2,
+.preview__h2 {
+    font-size: 1.5rem;
+}
+
+.blacklist__paragraph,
+.text__paragraph,
+.preview__paragraph {
+    max-width: 300px;
+    margin: 0 auto;
 }
