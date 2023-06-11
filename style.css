@@ -351,4 +351,45 @@ img{
     .history-paragraph {
         max-width: 100%;
     }
+
+    .access__header {
+        max-width: 100%;
+    }
+
+    .access__paragraph {
+        max-width: 600px;
+    }
+
+    .supercharge__header {
+        max-width: 100%;
+    }
+
+    .supercharge__paragrapgh {
+        max-width: 100%;
+    }
+
+    .supercharge__sub {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .blacklist,
+    .text,
+    .preview {
+        margin: 0 0 0 0;
+    }
+
+    .blacklist__paragraph,
+    .text__paragraph,
+    .preview__paragraph {
+        max-width: 400px;
+        font-size: .8rem;
+    }
+
+    .partners-section {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
 }
