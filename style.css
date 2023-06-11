@@ -98,6 +98,7 @@ img{
 .ios__link,
 .mac__link {
     color: #fff;
+    font-weight: var(--fw-600);
 }
 
 .mac {
@@ -107,4 +108,47 @@ img{
     margin: 0 auto;
     border-radius: 2rem;
     cursor: pointer;
+}
+
+.snippets-section {
+    text-align: center;
+    padding: 10rem 0 0 0;
+}
+
+.snippets__header {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0 0 1rem 0;
+}
+
+.snippets__h1 {
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+.snippets__paragraph {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0 0 4rem 0;
+}
+
+.snippets__p {
+    line-height: 1.7;
+}
+
+.snippets__img {
+    max-width: 75%;
+}
+
+.quick__search,
+.icloud,
+.history {
+    margin: 4rem 0 0 0;
+}
+
+.quick__search-paragraph,
+.icloud-paragraph,
+.history-paragraph {
+    max-width: 300px;
+    margin: .8rem auto 0 auto;
 }
