@@ -285,3 +285,70 @@ img{
     align-items: center;
     gap: 2.5rem;
 }
+
+
+@media screen and (min-width: 768px) {
+    .header__title {
+        max-width: 100%;
+    }
+
+    .header__p {
+        max-width: 550px;
+    }
+
+    .header__download {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .ios {
+        width: 400px;
+        margin: 0;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+    .mac {
+        width: 400px;
+        margin: 0;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+    
+    .snippets__header {
+        max-width: 100%;
+    }
+
+    .snippets__paragraph {
+        max-width: 630px;
+    }
+
+    .snippets__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5rem;
+    }
+
+    .snippets__image {
+        display: flex;
+        align-items: center;
+    }
+
+    .snippets__img {
+        max-width: 100%;
+        position: relative;
+        left: -1.5rem;
+    }
+
+    .snippets__content {
+        text-align: initial;
+        max-width: 330px;
+    }
+
+    .quick__search-paragraph,
+    .icloud-paragraph,
+    .history-paragraph {
+        max-width: 100%;
+    }
+}
