@@ -288,6 +288,9 @@ img{
 
 
 @media screen and (min-width: 768px) {
+    .header {
+        background-image: url(./images/bg-header-desktop.png);
+    }
     .header__title {
         max-width: 100%;
     }
@@ -304,13 +307,13 @@ img{
     }
 
     .ios {
-        width: 400px;
+        width: 250px;
         margin: 0;
         border-radius: 2rem;
         cursor: pointer;
     }
     .mac {
-        width: 400px;
+        width: 250px;
         margin: 0;
         border-radius: 2rem;
         cursor: pointer;
@@ -391,5 +394,59 @@ img{
     .partners-section {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
+    }
+
+    .clipboard__header {
+        max-width: 100%;
+    }
+
+    .clipboard__paragraph {
+        max-width: 600px;
+    }
+
+    .clipboard__download {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: .5fr 1.5fr 1fr;
+    }
+
+    .footer__image {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: initial;
+        height: 100%;
+    }
+
+    .footer__item {
+        margin: 0;
+        padding: .6rem 0;
+    }
+
+    .socials__menu {
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .partners__img {
+        width: 100px;
+    }
+
+    .access-section,
+    .partners-section,
+    .footer {
+        max-width: 85%;
+        margin: 0 auto;
     }
 }
